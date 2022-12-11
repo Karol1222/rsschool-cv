@@ -1,0 +1,70 @@
+body {
+	display: flex;
+	width: 600px;
+    height: 1300px;
+	margin: 50px 250px 50px 400px;
+
+	font-size: 16px;
+	font-family: Times New Roman;
+}
+
+main {
+	width: 600px;
+	padding-left: 50px;
+	padding-bottom: 30px;
+    padding-top: 20px;
+	border: 5px solid Gainsboro;
+	background-color: LightGray;
+}
+	
+
+
+h1 {
+	display: flex;
+	margin-right: 50px;
+	line-height: 2;
+	border-bottom: 1px solid DarkGray;
+}
+
+pre {
+	display: flex;
+	align-items: center;
+	width: 350px;
+	height: 150px;
+	background-color: #DCDCDC;
+	
+}
+code {
+	align-self: flex-start;
+	margin-left: -120px;
+	margin-top: 10px;
+	font-size: 12px;
+	font-family: Courier New;
+}
+
+p {
+	margin-left: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+    float: right;
+    margin: 20px 20px auto auto;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid DimGray;
+}
+
+h1 .school {
+    border-bottom: 1px solid DarkGray;
+    width: 300px;
+}
